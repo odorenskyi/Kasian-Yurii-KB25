@@ -1,0 +1,11 @@
+# depslib dependency file v1.0
+1773929204 source:c:\users\Юрій\onedrive\Документы\github\kasian-yurii-kb25\lab08\prj\moduleskasian\main.cpp
+	<iostream>
+	<cassert>
+	<cmath>
+
+1773929204 source:c:\users\Юрій\onedrive\Документы\github\kasian-yurii-kb25\lab08\prj\moduleskasian\modulekasian.cpp
+	<iostream>
+	<cassert>
+	<cmath>
+
