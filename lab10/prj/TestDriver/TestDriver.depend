@@ -1,0 +1,8 @@
+# depslib dependency file v1.0
+1775229619 source:c:\users\Юрій\onedrive\Документы\github\kasian-yurii-kb25\lab10\prj\testdriver\main.cpp
+	<iostream>
+	<string>
+	<windows.h>
+	<clocale>
+	"ModuleKasian.h"
+
