@@ -5,5 +5,11 @@
 	<clocale>
 	"ModuleKasian.h"
 
-1773931423 c:\users\Юрій\onedrive\Документы\github\kasian-yurii-kb25\lab08\prj\modulekasian.h
+1774888612 c:\users\Юрій\onedrive\Документы\github\kasian-yurii-kb25\lab08\prj\modulekasian.h
+
+1773933151 source:c:\users\Юрій\onedrive\Документы\github\kasian-yurii-kb25\lab08\prj\testdriver\main.cpp
+	<iostream>
+	<windows.h>
+	<clocale>
+	"ModuleKasian.h"
 

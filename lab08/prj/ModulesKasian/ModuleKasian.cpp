@@ -176,7 +176,10 @@ void Task10_1(std::string inFileName, std::string outFileName) {
         return;
     }
 
-    outputFile << "ЗВІТ АНАЛІЗУ ТЕКСТУ | Касян Юрій" << std::endl;
+    outputFile << "ЗВІТ АНАЛІЗУ ТЕКСТУ" << std::endl;
+    outputFile << "Касян Юрій" << std::endl;
+    outputFile << "ЦНТУ, Кропивницький, Україна" << std::endl;
+    outputFile << "2026" << std::endl;
     outputFile << "------------------------------------------" << std::endl;
 
     std::string line;

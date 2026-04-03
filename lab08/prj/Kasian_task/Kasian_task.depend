@@ -1,0 +1,11 @@
+# depslib dependency file v1.0
+1773935677 source:c:\users\Юрій\onedrive\Документы\github\kasian-yurii-kb25\lab08\prj\kasian_task\main.cpp
+	<iostream>
+	<windows.h>
+	<clocale>
+	<iomanip>
+	"ModuleKasian.h"
+
+1775225631 c:\users\Юрій\onedrive\Документы\github\kasian-yurii-kb25\lab08\prj\modulekasian.h
+	<string>
+

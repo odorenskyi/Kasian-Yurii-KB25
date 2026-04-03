@@ -4,8 +4,16 @@
 	<cassert>
 	<cmath>
 
-1773929204 source:c:\users\Юрій\onedrive\Документы\github\kasian-yurii-kb25\lab08\prj\moduleskasian\modulekasian.cpp
-	<iostream>
+1775229995 source:c:\users\Юрій\onedrive\Документы\github\kasian-yurii-kb25\lab08\prj\moduleskasian\modulekasian.cpp
 	<cassert>
 	<cmath>
+	<iostream>
+	<fstream>
+	<string>
+	<vector>
+	<sstream>
+	<cctype>
+	<ctime>
+	<bitset>
+	<algorithm>
 
