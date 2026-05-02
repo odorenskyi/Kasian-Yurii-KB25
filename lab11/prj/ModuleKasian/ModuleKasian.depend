@@ -1,0 +1,6 @@
+# depslib dependency file v1.0
+1777749643 source:c:\users\Юрій\onedrive\Документы\github\kasian-yurii-kb25\lab11\prj\modulekasian\main.cpp
+	<iostream>
+	<string>
+	<algorithm>
+

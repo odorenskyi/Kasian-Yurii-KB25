@@ -1,0 +1,7 @@
+# depslib dependency file v1.0
+1777752492 source:c:\users\Юрій\onedrive\Документы\github\kasian-yurii-kb25\lab11\prj\prj_1_kasian\main.cpp
+	<iostream>
+	<string>
+	<windows.h>
+	<ModuleKasian.h>
+
