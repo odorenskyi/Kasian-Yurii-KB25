@@ -17,6 +17,9 @@
 					<Add option="-Wall" />
 					<Add option="-g" />
 				</Compiler>
+				<Linker>
+					<Add library="../struct_type_project_1.h" />
+				</Linker>
 			</Target>
 			<Target title="Release">
 				<Option output="bin/Release/ModuleKasian" prefix_auto="1" extension_auto="1" />
@@ -34,7 +37,7 @@
 				</Linker>
 			</Target>
 		</Build>
-		<Unit filename="main.c">
+		<Unit filename="mod.cpp">
 			<Option compilerVar="CC" />
 		</Unit>
 		<Extensions />

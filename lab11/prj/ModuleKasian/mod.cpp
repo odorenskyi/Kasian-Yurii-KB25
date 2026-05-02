@@ -155,9 +155,9 @@ void Dodavannya(Reestr*& db, int& count, int& capacity) {
     // 2. ВВЕДЕННЯ ДАНИХ ТА ВАЛІДАЦІЯ
     cout << "Прізвище власника*: "; cin >> temp.l_name;
     cout << "Ім'я*: "; cin >> temp.f_name;
-    cout << "По батькові: "; cin >> temp.s_name;
+    cout << "По батькові(можна поставити - якщо відсутнє): "; cin >> temp.s_name;
 
-    cout << "Марка автомобіля*: ";
+    cout << "Марка автомобіля*(бажано латиною, але можна і кирилицею): ";
     cin.ignore(); // Очищення буфера після cin
     getline(cin, temp.marka);
 
