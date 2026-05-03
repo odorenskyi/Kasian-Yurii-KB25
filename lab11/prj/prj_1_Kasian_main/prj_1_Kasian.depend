@@ -1,0 +1,20 @@
+# depslib dependency file v1.0
+1777752492 source:c:\users\Юрій\onedrive\Документы\github\kasian-yurii-kb25\lab11\prj\prj_1_kasian\main.cpp
+	<iostream>
+	<string>
+	<windows.h>
+	<ModuleKasian.h>
+
+1777793460 source:c:\users\Юрій\onedrive\Документы\github\kasian-yurii-kb25\lab11\prj\prj_1_kasian_main\main.cpp
+	<iostream>
+	<string>
+	<windows.h>
+	<ModuleKasian.h>
+	<ModulesKarabash.h>
+
+1777792489 c:\users\Юрій\onedrive\Документы\github\kasian-yurii-kb25\lab11\prj\moduleskarabash\moduleskarabash.h
+	"struct_type_project_1.h"
+	<string>
+
+1777745017 c:\users\Юрій\onedrive\Документы\github\kasian-yurii-kb25\lab11\prj\struct_type_project_1.h
+

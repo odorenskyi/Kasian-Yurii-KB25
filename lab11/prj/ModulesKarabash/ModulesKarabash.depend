@@ -1,0 +1,13 @@
+# depslib dependency file v1.0
+1777754464 source:c:\users\user\git\karabash-lina-kb25\lab10\prj\moduleskarabash\main.cpp
+	<iostream>
+	<fstream>
+	<string>
+	"struct_type_project_1.h"
+
+1777758712 source:c:\users\user\git\karabash-lina-kb25\lab11\prj\moduleskarabash\main.cpp
+	<iostream>
+	<fstream>
+	<string>
+	"struct_type_project_1.h"
+
