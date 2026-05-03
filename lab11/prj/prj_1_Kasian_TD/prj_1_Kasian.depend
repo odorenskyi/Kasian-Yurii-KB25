@@ -5,3 +5,19 @@
 	<windows.h>
 	<ModuleKasian.h>
 
+1777816735 source:c:\users\Юрій\onedrive\Документы\github\kasian-yurii-kb25\lab11\prj\prj_1_kasian_td\main.cpp
+	<iostream>
+	<string>
+	<windows.h>
+	<ModuleKasian.h>
+	<struct_type_project_1.h>
+	<ModulesKarabash/ModulesKarabash.h>
+
+1777815546 c:\users\Юрій\onedrive\Документы\github\kasian-yurii-kb25\lab11\prj\struct_type_project_1.h
+	<iostream>
+	<string>
+
+1777792489 c:\users\Юрій\onedrive\Документы\github\kasian-yurii-kb25\lab11\prj\moduleskarabash\moduleskarabash.h
+	"struct_type_project_1.h"
+	<string>
+

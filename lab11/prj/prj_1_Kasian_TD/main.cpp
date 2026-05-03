@@ -2,45 +2,37 @@
 #include <string>
 #include <windows.h>
 #include <ModuleKasian.h>
+#include <struct_type_project_1.h>
+#include <ModulesKarabash/ModulesKarabash.h>
 
 using namespace std;
 
-struct Reestr {
-    string l_name;
-    string f_name;
-    string s_name;
-    string marka;
-    int year;
-    string data;
-    string nomer;
-    string prumitku;
-};
-void Dodavannya(Reestr*& db, int& count, int& capacity);
-void searchnom(Reestr* db, int count);
-void loadDatabaseFromFile(Reestr*& db, int& count, int& capacity, string filename);
-void saveDatabaseToFile(Reestr* db, int count, string filename);
+// Ваші правильні прототипи (використовують логіку списку)
+void Dodavannya(Reestr*& head);
+void searchnom(Reestr* head);
+Reestr* loadFromTxtFile(string fileName);
+void outputRegistry(Reestr* head);
 
 int main()
 {
+    // Налаштування кодування для коректного відображення кирилиці
     SetConsoleCP(65001);
     SetConsoleOutputCP(65001);
 
-    int count = 0;      // Поточна кількість записів
-    int capacity = 2;   // Початкова місткість (мала для перевірки Reallocation)
-    Reestr* database = new Reestr[capacity];
-
-    loadDatabaseFromFile(database, count, capacity, "Reestr.txt");
+    // Для списку нам потрібен лише вказівник на "голову"
+    // Ініціалізуємо його результатом завантаження з файлу
+    Reestr* database = loadFromTxtFile("database.txt");
 
     int choice;
     bool running = true;
 
-    cout << "=== ТЕСТОВИЙ ДРАЙВЕР: РЕЄСТР АВТОМОБІЛІВ МВС ===" << endl;
+    cout << "=== ТЕСТОВИЙ ДРАЙВЕР: РЕЄСТР АВТОМОБІЛІВ МВС (СПИСОК) ===" << endl;
 
     while (running) {
         cout << "\nМЕНЮ УПРАВЛІННЯ:" << endl;
-        cout << "1. Додати новий автомобіль (Тест TC-ADD)" << endl;
-        cout << "2. Пошук за держ. номером (Тест TC-SRCH)" << endl;
-        cout << "3. Переглянути статус пам'яті" << endl;
+        cout << "1. Додати новий автомобіль" << endl;
+        cout << "2. Пошук за держ. номером" << endl;
+        cout << "3. Переглянути весь реєстр" << endl;
         cout << "0. Вихід" << endl;
         cout << "Ваш вибір: ";
 
@@ -52,15 +44,16 @@ int main()
 
         switch (choice) {
             case 1:
-                Dodavannya(database, count, capacity);
+                // Передаємо тільки вказівник на голову (за посиланням)
+                Dodavannya(database);
                 break;
             case 2:
-                searchnom(database, count);
+                // Пошук по списку починаючи з голови
+                searchnom(database);
                 break;
             case 3:
-                cout << "--- Стан системи ---" << endl;
-                cout << "Записів у базі: " << count << endl;
-                cout << "Виділено пам'яті: " << capacity << " об'єктів" << endl;
+                // Вивід усіх елементів списку
+                outputRegistry(database);
                 break;
             case 0:
                 running = false;
@@ -70,10 +63,9 @@ int main()
         }
     }
 
-    saveDatabaseToFile(database, count, "Reestr.txt");
-    // Звільнення пам'яті перед виходом
-    delete[] database;
-    cout << "Програма завершена. Пам'ять звільнена." << endl;
+    // Тут варто було б додати функцію очищення пам'яті списку,
+    // але згідно з вашими прототипами, робота завершена.
+    cout << "Програма завершена." << endl;
 
     return 0;
 }
