@@ -1,0 +1,37 @@
+# depslib dependency file v1.0
+1779519786 source:c:\users\kasya\onedrive\Документы\github\kasian-yurii-kb25\lab12\prj\teacher\main.cpp
+	<iostream>
+	<fstream>
+	<string>
+	<sstream>
+	<cmath>
+	<windows.h>
+	<unistd.h>
+	"ModulesKasian.h"
+
+1779473664 c:\users\kasya\onedrive\Документы\github\kasian-yurii-kb25\lab12\prj\teacher\moduleskasian.h
+
+1779516770 source:c:\users\kasya\onedrive\Документы\github\kasian-yurii-kb25\lab12\prj\main.cpp
+	<iostream>
+	<fstream>
+	<string>
+	<sstream>
+	<cmath>
+	<windows.h>
+	<unistd.h>
+	"ModulesKasian.h"
+
+1779473664 c:\users\kasya\onedrive\Документы\github\kasian-yurii-kb25\lab12\prj\moduleskasian.h
+
+1779518481 source:c:\users\kasya\onedrive\Документы\github\kasian-yurii-kb25\teacher\main.cpp
+	<iostream>
+	<fstream>
+	<string>
+	<sstream>
+	<cmath>
+	<windows.h>
+	<unistd.h>
+	"ModulesKasian.h"
+
+1779473664 c:\users\kasya\onedrive\Документы\github\kasian-yurii-kb25\teacher\moduleskasian.h
+
