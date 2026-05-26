@@ -18,7 +18,7 @@
     #define BEEP() std::cout << "\a" << std::flush
 #endif
 
-#include "ModulesKasian.h"
+#include "ModuleKasian.h"
 
 std::string getRuntimeLab12Path() {
 #ifdef _WIN32
